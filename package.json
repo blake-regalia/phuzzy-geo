@@ -1,0 +1,38 @@
+{
+  "name": "phuzzy-geo",
+  "version": "0.0.1",
+  "description": "Adds interactive map and support for W3C Basic Geo, GeoSPARQL, and Awesemantic-Geo",
+  "author": {
+    "name": "Blake Regalia",
+    "email": "blake.regalia@gmail.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/main/phuzzy-geo.js",
+  "assets": {
+    "css": [
+      "dist/styles/phuzzy-geo.css",
+      "node_modules/leaflet/dist/leaflet.css"
+    ]
+  },
+  "keywords": [
+    "linked-data",
+    "semantic-web"
+  ],
+  "repository": "blake-regalia/phuzzy-geo.git",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-soda": "^0.5.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "leaflet": "^1.1.0"
+  }
+}
